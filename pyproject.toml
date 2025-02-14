@@ -1,6 +1,6 @@
 [project]
 name = "irevshell"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple reverse shell listener aimed at professionnals who want an almost built-in interactivity and systematic logging."
 authors = [
     {name = "Xenorf",email = "90411648+Xenorf@users.noreply.github.com"}
