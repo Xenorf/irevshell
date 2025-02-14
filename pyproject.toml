@@ -1,0 +1,18 @@
+[project]
+name = "irevshell"
+version = "0.1.0"
+description = "Simple reverse shell listener aimed at professionnals who want an almost built-in interactivity and systematic logging."
+authors = [
+    {name = "Xenorf",email = "90411648+Xenorf@users.noreply.github.com"}
+]
+license = {text = "GPL-3.0-or-later"}
+readme = "README.md"
+requires-python = ">=3.5,<4.0"
+dependencies = [
+    "loguru (>=0.7.3,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
