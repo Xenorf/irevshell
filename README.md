@@ -63,5 +63,5 @@ Exiting a shell or losing the connection will automatically restart the listener
 
 ## Credits
 
-Inpired by [this tool](https://github.com/infodox/python-pty-shells/tree/master) from Darren Martyn.  
+Inspired by [this tool](https://github.com/infodox/python-pty-shells/tree/master) from Darren Martyn.  
 Upgrade command taken from [IppSec](https://github.com/IppSec/forward-shell/blob/master/forward-shell.py).
