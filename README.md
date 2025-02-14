@@ -45,7 +45,7 @@ Important keybinds
 ### Almost built-in interactivity
 If the remote connection displays a prompt, interactive mode is enabled. It allows for autocompletion, handling of `CTRL+C`, `CTRL+Z` SIGINT etc. To make sure full interactivity is enabled (sudo commands, file editing with vi etc.), a tty is mandatory. There are tons of ways to ensure that but this command can help you spawn one: `python3 -c 'import pty; pty.spawn("/bin/bash")' || python -c 'import pty; pty.spawn("/bin/bash")' || script -qc /bin/bash /dev/null`.
 
-![irevshell icon](assets/autocompletion.png)
+![irevshell autocompletion](https://raw.githubusercontent.com/Xenorf/irevshell/main/assets/autocompletion.png)
 
 To put a cherry on top, with the correct parameter (`--conpty` or `-c`) you have [ConPtyShell](https://github.com/antonioCoco/ConPtyShell) support for interactive reverse shells on Windows.
 
@@ -53,13 +53,13 @@ To put a cherry on top, with the correct parameter (`--conpty` or `-c`) you have
 
 By default, every single command made in the reverse shell is logged to a file. The filename and path can be customize as well as the level of debug log. Error traces are verbose in case something goes really wrong.
 
-![irevshell icon](assets/logfile.png)
+![irevshell logfile](https://raw.githubusercontent.com/Xenorf/irevshell/main/assets/logfile.png)
 
 ### Automatic restart, graceful exit and restoration
 
 Exiting a shell or losing the connection will automatically restart the listener. If you want to stop listening to incoming connection, once you have exited any ongoing shell, you can gracefully exit the program by pressing `CTRL+C`. This will restore terminal settings that were changed.
 
-![irevshell icon](assets/autorestart.png)
+![irevshell automatic restart](https://raw.githubusercontent.com/Xenorf/irevshell/main/assets/autorestart.png)
 
 ## Credits
 
