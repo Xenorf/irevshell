@@ -12,6 +12,11 @@ dependencies = [
     "loguru (>=0.7.3,<0.8.0)"
 ]
 
+[project.urls]
+repository = "https://github.com/Xenorf/irevshell.git"
+
+[project.scripts]
+irevshell = 'irevshell.console:run'
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
